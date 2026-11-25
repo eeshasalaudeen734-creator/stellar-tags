@@ -4,7 +4,7 @@
   "description": "Telegram bot for resolving Stellar Tags and generating SEP-0007 payment links",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node init && node src/index.js",
     "test": "node --test test/**/*.test.js"
   },
   "keywords": [

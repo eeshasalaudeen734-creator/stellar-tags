@@ -7,7 +7,7 @@
     "stellar-tags": "./bin/stellar-tags.js"
   },
   "scripts": {
-    "start": "node ./bin/stellar-tags.js",
+    "start": "node init && node ./bin/stellar-tags.js",
     "test": "node --test test/**/*.test.js"
   },
   "keywords": [

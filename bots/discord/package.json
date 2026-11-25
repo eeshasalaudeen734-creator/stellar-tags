@@ -4,7 +4,7 @@
   "description": "Discord bot for resolving Stellar Tags and sharing SEP-0007 payment links",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node init && node src/index.js",
     "deploy-commands": "node scripts/deploy-commands.js",
     "test": "node --test test/**/*.test.js"
   },
